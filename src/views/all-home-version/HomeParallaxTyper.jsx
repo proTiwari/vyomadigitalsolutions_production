@@ -93,8 +93,7 @@ const HomeParallaxTyper = () => {
             <span>Testimonials</span>
             <h2>What's Clients Say.</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
-              egestas. Id fermentum nullam ipsum massa.
+            Testimonials and Feedback from Customers
             </p>
           </div>
           {/* End beny_tm_title */}

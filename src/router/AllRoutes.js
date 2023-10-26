@@ -13,7 +13,7 @@ const AllRoutes = () => {
     <>
       <ScrollTopBehaviour />
       <Routes>
-        <Route path="/" element={<Preview />} />
+        <Route path="/" element={<HomeDarkAnimation />} />
         <Route path="/home-light-animation" element={<HomeLightAnimation />} />
         <Route path="/home-dark-animation" element={<HomeDarkAnimation />} />
         <Route path="/home-typer-creative" element={<HomeTyperCreative />} />

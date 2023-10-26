@@ -1,5 +1,5 @@
 {
-  "name": "beny",
+  "name": "vyomadigitalsolutions",
   "version": "1.1.5",
   "private": true,
   "dependencies": {
@@ -7,7 +7,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
-    "firebase": "^10.4.0",
+    "firebase": "^10.5.0",
     "photoswipe": "^5.3.4",
     "react": "^18.1.0",
     "react-animated-cursor": "^2.2.0",

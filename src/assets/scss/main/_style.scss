@@ -391,8 +391,8 @@ body.dark .loader_line:after {
   justify-content: space-between;
 }
 .beny_tm_topbar .logo img {
-  max-width: 90px;
-  max-height: 70px;
+  max-width: 230px;
+  max-height: 230px;
 }
 .beny_tm_topbar ul {
   margin: 0px;
@@ -3407,7 +3407,7 @@ body.intro .loader_line:after {
       }
       &::after {
         content: "";
-        background-image: url(../../light.png);
+        background-image: url(../../vyoma1.png);
         width: 100px;
         height: 44px;
         position: absolute;

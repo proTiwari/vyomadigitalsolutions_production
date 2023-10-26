@@ -1,6 +1,21 @@
 import React from "react";
 import { useForm } from "react-hook-form";
+import { getFirestore, collection, getDocs, addDoc, setDoc } from 'firebase/firestore/lite';
+import { initializeApp } from 'firebase/app';
 
+const firebaseConfig = {
+  apiKey: "AIzaSyDjBgN38Qg99VASVJQkjOYt6d_yuoQioDE",
+  authDomain: "vyomadigitalsolutions-9c1eb.firebaseapp.com",
+  projectId: "vyomadigitalsolutions-9c1eb",
+  storageBucket: "vyomadigitalsolutions-9c1eb.appspot.com",
+  messagingSenderId: "693734828717",
+  appId: "1:693734828717:web:a80d1613150a9629fc7424",
+  measurementId: "G-TZ9LYBTGL4"
+};
+
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
+ 
 const Contact = () => {
   const {
     register,
@@ -8,9 +23,31 @@ const Contact = () => {
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (data, e) => {
-    e.target.reset();
-    console.log("Message submited: " + JSON.stringify(data));
+  const jsonData = {};
+
+  const onSubmit = async (data, e) =>{
+    if (data.name) {
+      jsonData.name = data.name;
+    }
+    if (data.email) {
+      jsonData.email = data.email;
+    }
+    if (data.subject) {
+      jsonData.subject = data.subject;
+    }
+    if (data.message) {
+      jsonData.message = data.message;
+    }
+    try {
+      // Specify the document reference within the "ClientMessages" collection
+      console.log(data);
+      const docRef = await addDoc(collection(db, "ClientMessages"), {
+       jsonData
+      });
+      console.log("Document written with ID: ", docRef.id);
+    } catch (e) {
+      console.error("Error adding document: ", e);
+    }
   };
 
   return (

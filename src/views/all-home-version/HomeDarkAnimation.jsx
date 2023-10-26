@@ -23,7 +23,7 @@ const HomeDarkAnimation = () => {
       >
         <button className="demo-button">
           <Link to="/">
-            <span className="text">Demos</span>
+            <span className="text"></span>
           </Link>
         </button>
       </div>
@@ -38,15 +38,65 @@ const HomeDarkAnimation = () => {
       <div className="beny_tm_about" id="about">
         <div className="container">
           <div className="beny_tm_title_holder">
-            <span>About Me</span>
-            <h2>About Me</h2>
+            <span>About Us</span>
+            <h2>About Us</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
-              egestas. Id fermentum nullam ipsum massa.
+              
+Welcome to Vyoma Digital Solutions, where technology meets innovation and user-centric design. We are a dynamic team of forward-thinking developers and digital experts, committed to bringing your ideas to life and transforming them into exceptional digital experiences.
+<br></br>
+<br></br>
+<b>Our Vision</b>
+<br></br>
+At Vyoma, we envision a digital world that is accessible, intuitive, and efficient for all. Our core belief is that technology should empower individuals and businesses, making their lives easier and more productive. We strive to be at the forefront of this transformation.
+<br></br>
+<br></br>
+<b>Our Mission</b>
+<br></br>
+Our mission is to provide cutting-edge digital solutions tailored to your unique needs. Whether you're a startup looking to make your mark, an established business aiming to stay ahead of the curve, or an organization with a social impact, Vyoma Digital Solutions is your trusted partner for success. We're passionate about creating software and digital products that not only meet but exceed your expectations.
+<br></br>
+<br></br>
+<b>Why Choose Vyoma Digital Solutions?</b>
+<br></br>
+<br></br>
+<b>Experienced Team:</b> Our team of experts brings years of experience and expertise to the table, ensuring that your project is in safe hands.
+<br></br>
+<br></br>
+<b>User-Centric Approach:</b> We put your users at the heart of our designs, ensuring your digital solutions are both intuitive and engaging.
+<br></br>
+<br></br>
+<b>Innovation:</b> We love pushing the boundaries of technology and adopting the latest industry trends to deliver forward-thinking solutions.
+<br></br>
+<br></br>
+<b>Quality Assurance:</b> Every project undergoes rigorous testing to guarantee a seamless user experience.
+<br></br>
+<br></br>
+<b>Our Services</b>
+<br></br>
+<br></br>
+<b>Web Development:</b> Crafted with the latest web technologies, we build websites that are beautiful, functional, and tailored to your brand.
+<br></br>
+<br></br>
+<b>Mobile App Development:</b> Whether it's iOS or Android, we create mobile apps that captivate and retain your audience.
+<br></br>
+<br></br>
+<b>E-Commerce Solutions:</b> We develop robust e-commerce platforms to help you scale and succeed in the digital marketplace.
+<br></br>
+<br></br>
+<b>Custom Software:</b> Our team excels in creating bespoke software solutions that meet your specific business needs.
+<br></br>
+<br></br>
+<b>Digital Marketing:</b> From SEO to social media, we help your brand shine in the digital landscape.
+<br></br>
+<br></br>
+Let's Create Together
+<br></br>
+Your digital journey begins with Vyoma Digital Solutions. Let's collaborate and turn your vision into a digital reality. Contact us today to discuss your project and discover how we can bring your ideas to life.
+<br></br>
+Welcome to a world of limitless possibilities. Welcome to Vyoma Digital Solutions.
             </p>
           </div>
           {/* End .beny_tm_title */}
-          <About />
+          {/* <About /> */}
           {/* End Slider */}
         </div>
       </div>
@@ -57,10 +107,9 @@ const HomeDarkAnimation = () => {
         <div className="container">
           <div className="beny_tm_title_holder">
             <span>Services</span>
-            <h2>I provide wide range of digital services</h2>
+            <h2>We provide wide range of digital services</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
-              egestas. Id fermentum nullam ipsum massa.
+            Empowering Your Digital Success with a Diverse Array of Comprehensive Services and Innovative Solutions.
             </p>
           </div>
           {/* End beny_tm_title */}
@@ -74,10 +123,9 @@ const HomeDarkAnimation = () => {
         <div className="container">
           <div className="beny_tm_title_holder">
             <span>Portfolio</span>
-            <h2>My Portfolio</h2>
+            <h2>Our Portfolio</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
-              egestas. Id fermentum nullam ipsum massa.
+            Exploring Our Achievements and Creative Endeavors.
             </p>
           </div>
           {/* End beny_tm_title */}
@@ -93,8 +141,7 @@ const HomeDarkAnimation = () => {
             <span>Testimonials</span>
             <h2>What's Clients Say.</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
-              egestas. Id fermentum nullam ipsum massa.
+            Testimonials and Feedback from Customers
             </p>
           </div>
           {/* End beny_tm_title */}
@@ -111,7 +158,7 @@ const HomeDarkAnimation = () => {
       {/* /TESTIMONIALS */}
 
       {/* NEWS */}
-      <div className="beny_tm_news" id="news">
+      {/* <div className="beny_tm_news" id="news">
         <div className="container">
           <div className="beny_tm_title_holder">
             <span>Blogs</span>
@@ -122,9 +169,10 @@ const HomeDarkAnimation = () => {
             </p>
           </div>
           {/* End beny_tm_title */}
-          <Blog />
-        </div>
-      </div>
+          {/* <Blog /> */}
+        {/* </div> */}
+      {/* // </div> */}
+     {/* */}
       {/* /NEWS */}
 
       {/*  CONTACT */}
@@ -154,7 +202,7 @@ const HomeDarkAnimation = () => {
             >
               <div className="title">
                 <p>
-                  I'm always open to discussing product
+                  We are always open to discussing product
                   <br />
                   <span>design work or partnerships.</span>
                 </p>

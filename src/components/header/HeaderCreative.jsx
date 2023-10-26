@@ -40,7 +40,7 @@ const HeaderCreative = () => {
                   src="img/logo/light.png"
                   alt="brand"
                 />
-                <img className="dark-img" src="img/logo/dark.png" alt="brand" />
+                <img className="dark-img" src="img/logo/vyoma1.png" alt="brand" />
               </Link>
             </div>
             <div className="menu">
@@ -94,10 +94,10 @@ const HeaderCreative = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://themeforest.net/checkout/from_item/33910000?license=regular">
+                  <a href="">
                     <span className="wrapper">
-                      <span className="first">Buy Now</span>
-                      <span className="second">Buy Now</span>
+                      <span className="first">Contact Now</span>
+                      <span className="second">Contact Now</span>
                     </span>
                   </a>
                 </li>

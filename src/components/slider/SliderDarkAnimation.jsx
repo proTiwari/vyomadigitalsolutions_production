@@ -12,7 +12,7 @@ const SliderDarkAnimation = () => {
           className="image"
           style={{
             backgroundImage: `url(${
-              process.env.PUBLIC_URL + "img/slider/7.jpg"
+              process.env.PUBLIC_URL + "img/slider/3.jpg"
             })`,
           }}
         ></div>
@@ -31,7 +31,7 @@ const SliderDarkAnimation = () => {
         <div className="content">
           <div className="content_inner">
             <h3 className="name" data-aos="fade-up" data-aos-duration="1200">
-              Hi! I'm Astro
+              Hi! We Are VyomaDigitalSolutions
             </h3>
             <h1
               className="job"
@@ -44,7 +44,7 @@ const SliderDarkAnimation = () => {
                   loop
                   typeSpeed={150}
                   backSpeed={60}
-                  strings={[" Visual Artist", "Designer", "Developer"]}
+                  strings={[" Android Developement", "IOS Development", "Create Website", "And Much More.."]}
                   smartBackspace
                   shuffle={false}
                   backDelay={1}
@@ -55,7 +55,7 @@ const SliderDarkAnimation = () => {
                   cursorChar="|"
                 />
               </span>
-              <br /> <span>Based In California.</span>
+              <br /> <span>Unbeatable Prices</span>
             </h1>
             <p
               className="text"
@@ -63,9 +63,9 @@ const SliderDarkAnimation = () => {
               data-aos-duration="1200"
               data-aos-delay="100"
             >
-              I'm developer focused on crafting user‑friendly experiences, I am
-              passionate about building excellent software that improves the
-              lives of those around me.
+              Vyoma Digital Solutions is all about developer-driven innovation. 
+              We are passionate about building exceptional software that has a
+              positive impact on the lives of our clients and their users.
             </p>
             <div
               className="mobile_social"

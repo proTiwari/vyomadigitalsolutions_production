@@ -26,21 +26,45 @@ export default function SimpleSlider() {
   const testimonialContent = [
     {
       img: "1",
-      desc: `Hi, I’m Alvara Atkins and I am designer &amp; developer who dream making the world better place by products. I am also very active for international clients.`,
-      name: "Alvara Atkins",
-      designation: "Marketing Manager",
+      desc: `Vyoma's digital marketing strategies have significantly boosted our online visibility. Their data-driven approach and in-depth analysis have been a game-changer for us.`,
+      name: "Samantha",
+      designation: "",
     },
     {
       img: "2",
-      desc: `This is outstanding work. Everything I needed to do has been done by the makers. I really like this template and more importantly my clients are blown away by it.`,
-      name: "Fabian Gattuzo",
-      designation: "Photographer",
+      desc: `Working with Vyoma was a breeze. Their expertise in mobile app development made our project seamless, and their support is second to none. Highly recommended!`,
+      name: "Linda",
+      designation: "",
     },
     {
       img: "3",
-      desc: `These people really know what they are doing! Great customer support availability and supperb kindness. I am very happy that I've purchased this liscense!!!`,
-      name: "Alizee Bonita",
-      designation: "App Developer",
+      desc: `Vyoma took our e-commerce site to the next level. The results have been impressive, with increased sales and a better user experience. We couldn't be happier with their services.`,
+      name: "Michael P.",
+      designation: "",
+    },
+    {
+      img: "4",
+      desc: `We turned to Vyoma for custom software development, and they delivered a scalable solution on time and within budget. Their team is professional and highly skilled.`,
+      name: "Robert",
+      designation: "",
+    },
+    {
+      img: "5",
+      desc: `Vyoma Digital Solutions provides a one-stop-shop for all our digital needs. Their integrated services have saved us time and money, and we continue to see remarkable growth.`,
+      name: "Jennifer",
+      designation: "",
+    },
+    {
+      img: "6",
+      desc: `Vyoma doesn't just meet expectations; they exceed them. Their creativity, technical expertise, and dedication make them the perfect partner for any digital project.`,
+      name: "Mark",
+      designation: "",
+    },
+    {
+      img: "7",
+      desc: `Our collaboration with Vyoma Digital Solutions has been a true partnership. They are not just service providers but problem-solvers. We're grateful for their ongoing support.`,
+      name: "Anna",
+      designation: "",
     },
   ];
 

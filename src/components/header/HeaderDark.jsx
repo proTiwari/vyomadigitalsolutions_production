@@ -22,16 +22,19 @@ const Header = () => {
   };
 
   window.addEventListener("scroll", changeBackground);
-
+  const textStyle = {
+    color: 'Red', // Adjust the text color as needed
+  };
   return (
     <>
       {/* TOPBAR  */}
       <div className={navbar ? "beny_tm_topbar animate" : "beny_tm_topbar"}>
         <div className="in">
           <div className="topbar_inner">
-            <div className="logo">
+            <div className="logo" >
               <Link to="/">
-                <img src="img/logo/light.png" alt="brand" />
+                <img src="img/logo/vyoma2.png" alt="brand" />
+              
               </Link>
             </div>
             <div className="menu">
@@ -85,10 +88,10 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://themeforest.net/checkout/from_item/33910000?license=regular">
+                  <a href="">
                     <span className="wrapper">
-                      <span className="first">Buy Now</span>
-                      <span className="second">Buy Now</span>
+                      <span className="first">Contact Now</span>
+                      <span className="second">Contact Now</span>
                     </span>
                   </a>
                 </li>
