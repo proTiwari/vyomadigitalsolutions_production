@@ -2,15 +2,16 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import { getFirestore, collection, getDocs, addDoc, setDoc } from 'firebase/firestore/lite';
 import { initializeApp } from 'firebase/app';
+import CustomDialog from './dialogbox/dialogbox.jsx';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDjBgN38Qg99VASVJQkjOYt6d_yuoQioDE",
-  authDomain: "vyomadigitalsolutions-9c1eb.firebaseapp.com",
-  projectId: "vyomadigitalsolutions-9c1eb",
-  storageBucket: "vyomadigitalsolutions-9c1eb.appspot.com",
-  messagingSenderId: "693734828717",
-  appId: "1:693734828717:web:a80d1613150a9629fc7424",
-  measurementId: "G-TZ9LYBTGL4"
+  apiKey: process.env.REACT_APP_apiKey,
+  authDomain: process.env.REACT_APP_authDomain,
+  projectId: process.env.REACT_APP_projectId,
+  storageBucket: process.env.REACT_APP_storageBucket,
+  messagingSenderId: process.env.REACT_APP_messagingSenderId,
+  appId: process.env.REACT_APP_appId,
+  measurementId: process.env.REACT_APP_measurementId
 };
 
 const app = initializeApp(firebaseConfig);
@@ -41,10 +42,19 @@ const Contact = () => {
     try {
       // Specify the document reference within the "ClientMessages" collection
       console.log(data);
-      const docRef = await addDoc(collection(db, "ClientMessages"), {
-       jsonData
-      });
+      const docRef = await addDoc(collection(db, "ClientMessages"), 
+       {
+        "name": data.name,
+        "email": data.email,
+        "subject": data.subject,
+        "message": data.message,
+        "timestamp": new Date()
+       }
+      );
       console.log("Document written with ID: ", docRef.id);
+      e.target.reset();
+      alert("Your message has been sent successfully. We will get back to you soon.");
+      // CustomDialog();
     } catch (e) {
       console.error("Error adding document: ", e);
     }
