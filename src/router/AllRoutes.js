@@ -6,6 +6,7 @@ import HomeParallaxTyper from "../views/all-home-version/HomeParallaxTyper";
 import HomeDarkAnimation from "../views/all-home-version/HomeDarkAnimation";
 import NotFound from "../views/NotFound";
 import { Routes, Route } from "react-router-dom";
+import NeoNerdsPolicy from "../neonerds_policy/neonerdspolicy";
 import ScrollTopBehaviour from "../components/ScrollTopBehaviour";
 
 const AllRoutes = () => {
@@ -14,6 +15,7 @@ const AllRoutes = () => {
       <ScrollTopBehaviour />
       <Routes>
         <Route path="/" element={<HomeDarkAnimation />} />
+        <Route path="/neo-nerds-policy" element={<NeoNerdsPolicy />} />
         <Route path="/home-light-animation" element={<HomeLightAnimation />} />
         <Route path="/home-dark-animation" element={<HomeDarkAnimation />} />
         <Route path="/home-typer-creative" element={<HomeTyperCreative />} />
