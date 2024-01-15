@@ -21,7 +21,7 @@ const Address = () => {
       <li>
         <img className="svg" src="img/svg/map.svg" alt="" />
         <span>
-          noida, Uttar Pradesh, India, 201301
+        Sector 9, Noida, Uttar Pradesh, India, 201301
           <br /> 
         </span>
       </li>
